@@ -31,3 +31,13 @@ It clones a repository, indexes its code into embeddings, and allows interactive
 ```bash
 git clone https://github.com/your-username/rag-codebase-assistant.git
 cd rag-codebase-assistant
+
+### 2️⃣ Create virtual environment & install dependencies
+```bash
+python -m venv .venv
+source .venv/bin/activate   # on Linux/Mac
+.venv\Scripts\activate      # on Windows
+
+pip install -r requirements.txt
+
+
